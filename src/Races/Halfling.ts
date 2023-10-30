@@ -1,6 +1,7 @@
 import Race from './Race';
 
 export default class Halfling extends Race {
+  static maxLifePoints: number;
   public maxLifePoints = 60;
 
   static instances = 0;

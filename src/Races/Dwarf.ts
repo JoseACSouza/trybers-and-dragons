@@ -1,6 +1,7 @@
 import Race from './Race';
 
 export default class Dwarf extends Race {
+  static maxLifePoints: number;
   public maxLifePoints = 80;
 
   static instances = 0;

@@ -1,6 +1,7 @@
 import Race from './Race';
 
 export default class Orc extends Race {
+  static maxLifePoints: number;
   public maxLifePoints = 74;
 
   static instances = 0;

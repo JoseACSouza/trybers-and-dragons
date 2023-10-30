@@ -1,6 +1,7 @@
 import Race from './Race';
 
 export default class Elf extends Race {
+  static maxLifePoints: number;
   public maxLifePoints = 99;
 
   static instances = 0;
